@@ -51,20 +51,16 @@ input {
   border-radius: 50%;
 }
 
-/* input:not(:placeholder-shown)+.btn {
+input:not(:placeholder-shown)+.btn {
   color: #57a2f7;
   cursor: pointer;
 
   &:hover {
     background-color: #494949;
   }
-} */
-
-input:not(:placeholder-shown)+ .btn{
-color: red;
-cursor: pointer;
-
 }
+
+
 
 img {
   max-inline-size: 100%;
